@@ -6,7 +6,7 @@ import RefreshButton from "@/components/RefreshButton";
 export default async function Home() {
   const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
   const response = await fetch(`${baseUrl}/api/farms`, {
-    next: { revalidate: 30 },
+    next: { revalidate: 30, tags: ["farms"] },
   });
 
   if (!response.ok) {

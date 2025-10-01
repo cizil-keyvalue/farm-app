@@ -1,6 +1,7 @@
 "use server";
 
 import type { Farm, AddFarmState } from "./farms";
+import { revalidateTag } from "next/cache";
 
 export async function addFarm(
   prevState: AddFarmState,
@@ -63,6 +64,8 @@ export async function addFarm(
         error: errorData.error || "Failed to add farm. Please try again.",
       };
     }
+
+    revalidateTag("farms");
 
     return {
       success: true,
