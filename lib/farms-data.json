@@ -1,0 +1,533 @@
+[
+  {
+    "id": 1,
+    "farm_name": "Green Valley Organic Farm",
+    "location": "Napa Valley, California",
+    "owner": "Sarah Johnson",
+    "established_date": "2015-03-15",
+    "certifications": [
+      "USDA Organic",
+      "Non-GMO",
+      "Fair Trade"
+    ],
+    "total_acreage": 150,
+    "active_crops": [
+      "Tomatoes",
+      "Lettuce",
+      "Carrots",
+      "Spinach"
+    ],
+    "annual_yield": 45000,
+    "crops": [
+      {
+        "crop_name": "Tomatoes",
+        "season": "Summer",
+        "area_planted": 40,
+        "expected_yield": 15000,
+        "actual_yield": 14500,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Lettuce",
+        "season": "Spring",
+        "area_planted": 35,
+        "expected_yield": 12000,
+        "actual_yield": 12500,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Carrots",
+        "season": "Fall",
+        "area_planted": 45,
+        "expected_yield": 10000,
+        "actual_yield": 10200,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Spinach",
+        "season": "Winter",
+        "area_planted": 30,
+        "expected_yield": 8000,
+        "actual_yield": 7800,
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "farm_name": "Sunrise Fields",
+    "location": "Central Valley, California",
+    "owner": "Michael Chen",
+    "established_date": "2010-06-20",
+    "certifications": [
+      "ISO 9001",
+      "GlobalGAP"
+    ],
+    "total_acreage": 320,
+    "active_crops": [
+      "Wheat",
+      "Corn",
+      "Soybeans",
+      "Sunflowers"
+    ],
+    "annual_yield": 125000,
+    "crops": [
+      {
+        "crop_name": "Wheat",
+        "season": "Spring",
+        "area_planted": 100,
+        "expected_yield": 45000,
+        "actual_yield": 46000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Corn",
+        "season": "Summer",
+        "area_planted": 120,
+        "expected_yield": 50000,
+        "actual_yield": 51000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Soybeans",
+        "season": "Fall",
+        "area_planted": 70,
+        "expected_yield": 20000,
+        "actual_yield": 19500,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Sunflowers",
+        "season": "Summer",
+        "area_planted": 30,
+        "expected_yield": 10000,
+        "actual_yield": 8500,
+        "status": "harvested"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "farm_name": "Mountain View Ranch",
+    "location": "Colorado Springs, Colorado",
+    "owner": "Emily Rodriguez",
+    "established_date": "2018-01-10",
+    "certifications": [
+      "USDA Organic",
+      "Rainforest Alliance"
+    ],
+    "total_acreage": 85,
+    "active_crops": [
+      "Potatoes",
+      "Onions",
+      "Garlic",
+      "Herbs"
+    ],
+    "annual_yield": 28000,
+    "crops": [
+      {
+        "crop_name": "Potatoes",
+        "season": "Summer",
+        "area_planted": 40,
+        "expected_yield": 12000,
+        "actual_yield": 11800,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Onions",
+        "season": "Fall",
+        "area_planted": 25,
+        "expected_yield": 8000,
+        "actual_yield": 8200,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Garlic",
+        "season": "Spring",
+        "area_planted": 10,
+        "expected_yield": 4000,
+        "actual_yield": 4100,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Herbs",
+        "season": "Year-round",
+        "area_planted": 10,
+        "expected_yield": 4000,
+        "actual_yield": 3900,
+        "status": "growing"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "farm_name": "Riverside Gardens",
+    "location": "Willamette Valley, Oregon",
+    "owner": "David Thompson",
+    "established_date": "2012-08-05",
+    "certifications": [
+      "USDA Organic",
+      "Salmon-Safe"
+    ],
+    "total_acreage": 200,
+    "active_crops": [
+      "Strawberries",
+      "Blueberries",
+      "Apples",
+      "Pears"
+    ],
+    "annual_yield": 65000,
+    "crops": [
+      {
+        "crop_name": "Strawberries",
+        "season": "Spring",
+        "area_planted": 50,
+        "expected_yield": 18000,
+        "actual_yield": 17500,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Blueberries",
+        "season": "Summer",
+        "area_planted": 60,
+        "expected_yield": 20000,
+        "actual_yield": 20500,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Apples",
+        "season": "Fall",
+        "area_planted": 50,
+        "expected_yield": 15000,
+        "actual_yield": 15200,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Pears",
+        "season": "Fall",
+        "area_planted": 40,
+        "expected_yield": 12000,
+        "actual_yield": 11800,
+        "status": "growing"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "farm_name": "Prairie Winds Farm",
+    "location": "Kansas City, Kansas",
+    "owner": "Lisa Anderson",
+    "established_date": "2008-11-12",
+    "certifications": [
+      "ISO 14001",
+      "LEAF Marque"
+    ],
+    "total_acreage": 500,
+    "active_crops": [
+      "Corn",
+      "Wheat",
+      "Barley",
+      "Oats"
+    ],
+    "annual_yield": 180000,
+    "crops": [
+      {
+        "crop_name": "Corn",
+        "season": "Summer",
+        "area_planted": 200,
+        "expected_yield": 80000,
+        "actual_yield": 82000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Wheat",
+        "season": "Spring",
+        "area_planted": 150,
+        "expected_yield": 60000,
+        "actual_yield": 61000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Barley",
+        "season": "Fall",
+        "area_planted": 100,
+        "expected_yield": 25000,
+        "actual_yield": 24500,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Oats",
+        "season": "Spring",
+        "area_planted": 50,
+        "expected_yield": 15000,
+        "actual_yield": 12500,
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "farm_name": "Coastal Harvest",
+    "location": "Monterey Bay, California",
+    "owner": "James Wilson",
+    "established_date": "2016-04-22",
+    "certifications": [
+      "USDA Organic",
+      "Marine Stewardship"
+    ],
+    "total_acreage": 120,
+    "active_crops": [
+      "Artichokes",
+      "Broccoli",
+      "Cauliflower",
+      "Cabbage"
+    ],
+    "annual_yield": 42000,
+    "crops": [
+      {
+        "crop_name": "Artichokes",
+        "season": "Spring",
+        "area_planted": 30,
+        "expected_yield": 12000,
+        "actual_yield": 11500,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Broccoli",
+        "season": "Fall",
+        "area_planted": 35,
+        "expected_yield": 12000,
+        "actual_yield": 12200,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Cauliflower",
+        "season": "Winter",
+        "area_planted": 30,
+        "expected_yield": 10000,
+        "actual_yield": 10100,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Cabbage",
+        "season": "Fall",
+        "area_planted": 25,
+        "expected_yield": 8000,
+        "actual_yield": 8200,
+        "status": "harvested"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "farm_name": "Desert Bloom Farm",
+    "location": "Phoenix, Arizona",
+    "owner": "Maria Garcia",
+    "established_date": "2014-09-30",
+    "certifications": [
+      "USDA Organic",
+      "Demeter Biodynamic"
+    ],
+    "total_acreage": 75,
+    "active_crops": [
+      "Citrus",
+      "Dates",
+      "Almonds",
+      "Olives"
+    ],
+    "annual_yield": 35000,
+    "crops": [
+      {
+        "crop_name": "Citrus",
+        "season": "Winter",
+        "area_planted": 25,
+        "expected_yield": 12000,
+        "actual_yield": 11800,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Dates",
+        "season": "Summer",
+        "area_planted": 20,
+        "expected_yield": 10000,
+        "actual_yield": 10200,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Almonds",
+        "season": "Fall",
+        "area_planted": 20,
+        "expected_yield": 8000,
+        "actual_yield": 8100,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Olives",
+        "season": "Fall",
+        "area_planted": 10,
+        "expected_yield": 5000,
+        "actual_yield": 4900,
+        "status": "harvested"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "farm_name": "Forest Edge Organics",
+    "location": "Vermont, New England",
+    "owner": "Robert Brown",
+    "established_date": "2019-02-14",
+    "certifications": [
+      "USDA Organic",
+      "Certified Naturally Grown"
+    ],
+    "total_acreage": 95,
+    "active_crops": [
+      "Maple Syrup",
+      "Mushrooms",
+      "Wild Berries",
+      "Herbs"
+    ],
+    "annual_yield": 15000,
+    "crops": [
+      {
+        "crop_name": "Maple Syrup",
+        "season": "Spring",
+        "area_planted": 40,
+        "expected_yield": 5000,
+        "actual_yield": 4800,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Mushrooms",
+        "season": "Year-round",
+        "area_planted": 20,
+        "expected_yield": 4000,
+        "actual_yield": 4100,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Wild Berries",
+        "season": "Summer",
+        "area_planted": 25,
+        "expected_yield": 4000,
+        "actual_yield": 4000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Herbs",
+        "season": "Summer",
+        "area_planted": 10,
+        "expected_yield": 2000,
+        "actual_yield": 2100,
+        "status": "harvested"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "farm_name": "Golden Plains Ranch",
+    "location": "Texas Panhandle, Texas",
+    "owner": "Jennifer Davis",
+    "established_date": "2005-07-18",
+    "certifications": [
+      "ISO 9001",
+      "Regenerative Organic"
+    ],
+    "total_acreage": 800,
+    "active_crops": [
+      "Cotton",
+      "Sorghum",
+      "Wheat",
+      "Sunflowers"
+    ],
+    "annual_yield": 220000,
+    "crops": [
+      {
+        "crop_name": "Cotton",
+        "season": "Summer",
+        "area_planted": 300,
+        "expected_yield": 90000,
+        "actual_yield": 92000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Sorghum",
+        "season": "Summer",
+        "area_planted": 250,
+        "expected_yield": 70000,
+        "actual_yield": 71000,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Wheat",
+        "season": "Spring",
+        "area_planted": 150,
+        "expected_yield": 40000,
+        "actual_yield": 39000,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Sunflowers",
+        "season": "Summer",
+        "area_planted": 100,
+        "expected_yield": 20000,
+        "actual_yield": 18000,
+        "status": "planned"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "farm_name": "Lakeside Produce",
+    "location": "Finger Lakes, New York",
+    "owner": "Thomas Miller",
+    "established_date": "2013-05-08",
+    "certifications": [
+      "USDA Organic",
+      "Food Alliance"
+    ],
+    "total_acreage": 180,
+    "active_crops": [
+      "Grapes",
+      "Cherries",
+      "Peaches",
+      "Plums"
+    ],
+    "annual_yield": 55000,
+    "crops": [
+      {
+        "crop_name": "Grapes",
+        "season": "Fall",
+        "area_planted": 80,
+        "expected_yield": 25000,
+        "actual_yield": 24500,
+        "status": "growing"
+      },
+      {
+        "crop_name": "Cherries",
+        "season": "Summer",
+        "area_planted": 40,
+        "expected_yield": 12000,
+        "actual_yield": 12200,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Peaches",
+        "season": "Summer",
+        "area_planted": 35,
+        "expected_yield": 10000,
+        "actual_yield": 10100,
+        "status": "harvested"
+      },
+      {
+        "crop_name": "Plums",
+        "season": "Summer",
+        "area_planted": 25,
+        "expected_yield": 8000,
+        "actual_yield": 8200,
+        "status": "harvested"
+      }
+    ]
+  }
+]
