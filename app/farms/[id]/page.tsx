@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import ItemsSection from "@/components/ItemsSection";
 import FarmDetailCard from "@/components/FarmDetailCard";
 import CropsTable from "@/components/CropsTable";

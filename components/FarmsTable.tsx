@@ -1,6 +1,7 @@
 import React from "react";
-import { Farm } from "../lib/farms";
+
 import Table, { TableColumn } from "./Table";
+import { Farm } from "../lib/farms";
 
 interface FarmsTableProps {
   farms: Farm[];

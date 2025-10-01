@@ -1,6 +1,7 @@
+import Link from "next/link";
+
 import FarmsTable from "@/components/FarmsTable";
 import MetricsOverview from "@/components/MetricsOverview";
-import Link from "next/link";
 import RefreshButton from "@/components/RefreshButton";
 
 export default async function Home() {

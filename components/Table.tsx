@@ -1,6 +1,6 @@
 import React from 'react';
-import TableRow from './TableRow';
 import Link from 'next/link';
+
 import { 
   formatCurrency, 
   formatNumber, 
@@ -11,6 +11,8 @@ import {
   formatPricePerKg,
   formatYieldVariance
 } from '@/lib/formatting';
+
+import TableRow from './TableRow';
 
 export interface TableColumn<T> {
   key: keyof T | string;

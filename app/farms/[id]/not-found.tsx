@@ -1,10 +1,8 @@
-import Link from "next/link";
+const NotFound = () => (
+  <div>
+    <h1>Not Found</h1>
+    <p>The farm you're looking for doesn't exist.</p>
+  </div>
+);
 
-export default function NotFound() {
-  return (
-    <div>
-      <h1>Not Found</h1>
-      <p>The farm you're looking for doesn't exist.</p>
-    </div>
-  );
-}
+export default NotFound;

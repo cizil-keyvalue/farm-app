@@ -1,6 +1,7 @@
 import React from "react";
-import { Farm } from "../lib/farms";
+
 import { formatNumber, formatYield, formatAcreage } from "@/lib/formatting";
+import { Farm } from "../lib/farms";
 
 interface MetricCardProps {
   title: string;
