@@ -75,3 +75,17 @@ export async function addFarm(
     };
   }
 }
+
+export async function refreshFarmData(farmId: string) {
+  const { revalidatePath } = await import("next/cache");
+  
+  if (farmId) {
+    revalidatePath(`/farms/${farmId}`);
+  }
+  else {
+    revalidatePath("/");
+  }
+  
+  return { success: true };
+}
+

@@ -2,6 +2,7 @@ import Link from "next/link";
 import ItemsSection from "@/components/ItemsSection";
 import FarmDetailCard from "@/components/FarmDetailCard";
 import CropsTable from "@/components/CropsTable";
+import RefreshButton from "@/components/RefreshButton";
 import { notFound } from "next/navigation";
 import { formatDate, formatAcreage, formatYield } from "@/lib/formatting";
 
@@ -14,7 +15,7 @@ export default async function FarmDetailPage({ params }: FarmDetailPageProps) {
 
   const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
   const response = await fetch(`${baseUrl}/api/farms/${id}`, {
-    cache: "no-store",
+    next: { revalidate: 30 },
   });
 
   if (!response.ok) {
@@ -72,6 +73,7 @@ export default async function FarmDetailPage({ params }: FarmDetailPageProps) {
           </svg>
           Back to Farms Dashboard
         </Link>
+        <RefreshButton farmId={id} />
       </div>
 
       <div className="mb-8">
